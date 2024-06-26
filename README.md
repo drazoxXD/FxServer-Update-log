@@ -1,6 +1,6 @@
 # FxServer-Update-log
 A webhook based fxserver log with download link!
-\n
+
 # You will need:
 - Node.Js <br />
 # Running the bot! (aka webhook)
