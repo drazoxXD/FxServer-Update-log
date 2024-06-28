@@ -48,6 +48,8 @@ async function checkForUpdates() {
         fs.writeFileSync('lastVersion.txt', lastVersion);
         await sendWebhookMessage(version, downloadLink, date);
         console.log(`Új verzió mentve: ${version}`);
+    } else {
+        console.log('Nince update!\nVárakozás 30 másodprecig!')
     }
 }
 
@@ -74,8 +76,11 @@ async function sendWebhookMessage(version, downloadLink, date) {
     }
 }
 
+checkForUpdates();
 
 //fő check
 setInterval(() => {
     checkForUpdates();
+    console.clear();
+    console.log(`Frissítés keresése`);
 }, 30 * 1000); // 30 sec
