@@ -2,8 +2,10 @@
 A webhook based fxserver log with download link!
 
 # DISCLAMER
-I do not add my name to the person how runs this!
-Due to web scraping can be illegal with sites (not sure if cfx.re is not allowing it or not)
+I will not associate my name with those who misuse this web scraper, as it can be illegal in many places! I am not a legal professional or lawyer <br />
+This was just a fun side project. <br />
+Anyone who misuses it does so at their own risk! <br />
+Due to web scraping can be illegal with sites (not sure if cfx.re is not allowing it or not) <br />
 Run this at your own risks! (If you change the loops wait that can be ddos so i would not advise that cuz you can be blacklisted on cloudflare and you dont want to write a big email to them about this!)
 
 # You will need:
