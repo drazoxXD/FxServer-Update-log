@@ -11,7 +11,7 @@ Run this at your own risks! (If you change the loops wait that can be ddos so i 
 # You will need:
 - Node.Js <br />
 # Running the bot! (aka webhook)
-Change the webhook in the bot.js and run the but with the provided commands! <br />
+Change the webhook in the bot.js and run the bot with the provided commands! <br />
 ``` npm i ``` <br />
 ```node bot.js``` <br />
 <br />
