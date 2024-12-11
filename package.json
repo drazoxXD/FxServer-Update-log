@@ -1,15 +1,17 @@
 {
   "name": "fxserver_webhook",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bot.js -test",
+    "start": "node bot.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "7zip-min": "^1.4.5",
     "axios": "^1.7.2",
     "discord.js": "^14.15.3",
     "node-bash-title": "^0.0.2",
